@@ -93,6 +93,8 @@ If `requirements.txt` is missing, install these packages:
 pip install scanpy pandas numpy matplotlib seaborn scikit-learn gseapy mygene infercnvpy shap xgboost imbalanced-learn gtfparse
 ```
 
+---
+
 Note: After installing the packages, please check the numpy version to ensure compatibility.
 
 ```sh
@@ -105,6 +107,8 @@ It should be 1.25.2 but if it is anything else please run the following commands
 pip uninstall numpy
 pip install numpy==1.25.2
 ```
+
+---
 
 ### 4. Data Preparation
 
