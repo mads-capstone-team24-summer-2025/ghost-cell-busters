@@ -74,7 +74,7 @@ def gse161529_asset_main():
     dest_dir = Path("assets/")
     tar_path = dest_dir / "GSE161529_RAW.tar"
     tar_dest_dir = dest_dir / "GSE161529"
-    features_gz_path = tar_dest_dir / "GSE161529_features.tsv.gz"
+    features_gz_path = tar_dest_dir / "features.tsv.gz"
 
     # Download and extract the main TAR file
     download_tar_file(tar_url, tar_path)
