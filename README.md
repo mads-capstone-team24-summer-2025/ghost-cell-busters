@@ -170,63 +170,40 @@ pip install numpy==1.25.2
 
 1. **Open Targets Platform**
     - Source: Open Targets GraphQL API
-
     - Description: Biomedical data on targets, diseases, and drugs.
-
     - License:
-
     - Data: CC0 1.0 Public Domain Dedication — no restrictions.
-
     - Code/API: Apache License 2.0.
-
     - Attribution: Data and API provided by Open Targets Consortium (EMBL-EBI, GSK, Sanofi, Pfizer, Genentech, Bristol Myers Squibb, Wellcome Sanger Institute).
 
 2. **ClinicalTrials.gov**
     - Source: ClinicalTrials.gov API v2
-
     - Description: U.S. National Library of Medicine’s public database of clinical studies.
-
     - License/Usage: Public domain; attribution recommended per Terms & Conditions.
-
     - Attribution: Data provided by ClinicalTrials.gov, maintained by the U.S. National Library of Medicine (NIH).
 
 3. **DGIdb – Drug–Gene Interaction Database**
     - Source: interactions.tsv
-
     - Description: Aggregated drug–gene interaction data from multiple sources.
-
     - License:
-
     - Code: MIT License.
-
     - Data: Aggregated; each source may have its own license — see DGIdb sources.
-
     - Attribution: Data from DGIdb; credit to original sources where applicable.
 
 4. **GEO – Gene Expression Omnibus Datasets**
     - Maintained by the U.S. National Center for Biotechnology Information (NCBI), NIH. Data is generally public domain per GEO disclaimer; submitters may retain certain IP rights.
-
     - GSE161529 – A Single-cell RNA Expression Atlas of Normal, Preneoplastic and Tumorigenic States in the Human Breast.
-
     - Credit: Pal et al., EMBO Journal (2021).
-
     - GSE176078 – A single-cell and spatially resolved atlas of human breast cancers.
-
     - Credit: Swarbrick et al., 2021.
-
     - GSE180286 – Single-cell RNA sequencing reveals the mechanism of human breast cancer metastasis.
-
     - Credit: Xu K et al., The First Affiliated Hospital of Nanjing Medical University (2021).
 
 5. **GENCODE Human Release 44**
     - Source: GENCODE Release 44
-
     - Description: Comprehensive human genome annotation including protein-coding genes, lncRNAs, and pseudogenes.
-
     - License: CC BY 4.0.
-
     - Attribution: GENCODE Project, EMBL-EBI, Wellcome Sanger Institute.
-
     - Citation: Frankish A et al. (2023) GENCODE 2023. Nucleic Acids Research 51(D1):D943–D950. doi:10.1093/nar/gkac960.
 
 ---
@@ -240,6 +217,15 @@ pip install numpy==1.25.2
 
 ---
 
+## AI Assistance Statement
+
+    Parts of this project’s research, summarization, and code/documentation drafting were assisted by AI tools:
+    - OpenAI ChatGPT (GPT-5) — Used for brainstorming, drafting, summarizing, and refining documentation.
+    - Google NotebookLM — Used for information summarization and note structuring.
+    - Anthropic Claude (via GitHub Copilot) — Used for code suggestions, completions, and inline documentation assistance.
+    These tools were used to support and accelerate human-led work. All AI-generated content was reviewed, validated, and edited by the project authors.
+
+---
 ## Statement of Work
 ### Rajeev Prasad:
 1) Led data preprocessing and feature engineering, including calculation of biological scores (CNV, cell cycle, apoptosis, oxphos).
