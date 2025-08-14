@@ -24,9 +24,11 @@ ghost-cell-busters/
 │   │   ├── (extracted data files)
 │   │   └── README.md
 │   │
-│   └── GSE180286/
-│       ├── (extracted data files)
-│       └── README.md
+│   ├── GSE180286/
+│   │   ├── (extracted data files)
+│   │   └── README.md
+│   │
+│   └── Other datasets
 │
 ├── notebooks/
 │   ├── 01_GSE176078.ipynb
@@ -42,15 +44,22 @@ ghost-cell-busters/
 │   └── README.md
 │
 ├── scripts/
+│   ├── Clinical_trial_asset.py
 │   ├── Gencode_asset.py
 │   ├── GSE161529_asset.py
 │   ├── GSE176078_asset.py
 │   ├── GSE180286_asset.py
+│   ├── interactions_asset.py
 │   └── README.md
 │
 ├── (venv)/
 │   └── (virtual environment files)
 │
+├── web_files/
+│   ├── ( files related to the blog and poster)
+│   └── README.md
+│
+├── index.html (Blog page for the project)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -208,24 +217,15 @@ pip install numpy==1.25.2
 
 ---
 
-## References
-
-- [Scanpy documentation](https://scanpy.readthedocs.io/)
-- [infercnvpy documentation](https://icbi-lab.github.io/infercnvpy/)
-- [MSigDB Hallmark gene sets](https://www.gsea-msigdb.org/gsea/msigdb/collections.jsp#H)
-- [Gencode GTF files](https://www.gencodegenes.org/human/)
-
----
-
 ## AI Assistance Statement
 
 Parts of this project’s research, summarization, and code/documentation drafting were assisted by AI tools:
 
-    - OpenAI ChatGPT (GPT-5) — Used for brainstorming, drafting, summarizing, and refining documentation.
-    - Google NotebookLM — Used for information summarization and note structuring.
-    - Anthropic Claude (via GitHub Copilot) — Used for code suggestions, completions, and inline documentation assistance.
+- **OpenAI ChatGPT (GPT-4o)** — Used for brainstorming, drafting, summarizing, and refining documentation.
+- **Google NotebookLM** — Used for information summarization and note structuring.
+- **Anthropic Claude (via GitHub Copilot)** — Used for code suggestions, completions, and inline documentation assistance.
 
-These tools were used to support and accelerate human-led work. All AI-generated content was reviewed, validated, and edited by the project authors.
+These tools were used to support our work. All AI-generated content was reviewed, validated, and edited by us before using in the project.
 
 ---
 
