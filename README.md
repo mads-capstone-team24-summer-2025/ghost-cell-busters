@@ -182,26 +182,26 @@ pip install numpy==1.25.2
     - Source: Open Targets GraphQL API
     - Description: Biomedical data on targets, diseases, and drugs.
     - License:
+      - Code/API: Apache License 2.0.
     - Data: CC0 1.0 Public Domain Dedication — no restrictions.
-    - Code/API: Apache License 2.0.
     - Attribution: Data and API provided by Open Targets Consortium (EMBL-EBI, GSK, Sanofi, Pfizer, Genentech, Bristol Myers Squibb, Wellcome Sanger Institute).
 
 2. **ClinicalTrials.gov**
     - Source: ClinicalTrials.gov API v2
     - Description: U.S. National Library of Medicine’s public database of clinical studies.
-    - License/Usage: Public domain; attribution recommended per Terms & Conditions.
+    - License/Usage: Public domain.
     - Attribution: Data provided by ClinicalTrials.gov, maintained by the U.S. National Library of Medicine (NIH).
 
 3. **DGIdb – Drug–Gene Interaction Database**
     - Source: interactions.tsv
     - Description: Aggregated drug–gene interaction data from multiple sources.
     - License:
-    - Code: MIT License.
-    - Data: Aggregated; each source may have its own license — see DGIdb sources.
-    - Attribution: Data from DGIdb; credit to original sources where applicable.
+      - Code: MIT License.
+    - Data: Aggregated.
+    - Attribution: Data from DGIdb.
 
 4. **GEO – Gene Expression Omnibus Datasets**
-    - Maintained by the U.S. National Center for Biotechnology Information (NCBI), NIH. Data is generally public domain per GEO disclaimer; submitters may retain certain IP rights.
+    - Maintained by the U.S. National Center for Biotechnology Information (NCBI), NIH. Data is generally public domain per GEO disclaimer.
     - GSE161529 – A Single-cell RNA Expression Atlas of Normal, Preneoplastic and Tumorigenic States in the Human Breast.
     - Credit: Pal et al., EMBO Journal (2021).
     - GSE176078 – A single-cell and spatially resolved atlas of human breast cancers.
