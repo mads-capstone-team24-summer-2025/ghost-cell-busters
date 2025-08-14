@@ -219,13 +219,16 @@ pip install numpy==1.25.2
 
 ## AI Assistance Statement
 
-    Parts of this project’s research, summarization, and code/documentation drafting were assisted by AI tools:
+Parts of this project’s research, summarization, and code/documentation drafting were assisted by AI tools:
+
     - OpenAI ChatGPT (GPT-5) — Used for brainstorming, drafting, summarizing, and refining documentation.
     - Google NotebookLM — Used for information summarization and note structuring.
     - Anthropic Claude (via GitHub Copilot) — Used for code suggestions, completions, and inline documentation assistance.
-    These tools were used to support and accelerate human-led work. All AI-generated content was reviewed, validated, and edited by the project authors.
+
+These tools were used to support and accelerate human-led work. All AI-generated content was reviewed, validated, and edited by the project authors.
 
 ---
+
 ## Statement of Work
 ### Rajeev Prasad:
 1) Led data preprocessing and feature engineering, including calculation of biological scores (CNV, cell cycle, apoptosis, oxphos).
