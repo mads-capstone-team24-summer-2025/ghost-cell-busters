@@ -128,11 +128,12 @@ pip install numpy==1.25.2
     ```
     This will help set up the `assets/GSE176078/` directory with required files.
   - Similarly, use `GSE161529_asset.py` and `GSE180286_asset.py` for other datasets.
-  - To prepare gene annotation assets, run:
+  - To prepare gene annotation assets, interactions and clinical trials data, run:
     ```sh
     python scripts/Gencode_asset.py
+    python scripts/Interactions_asset.py
+    python scripts/Clinical_trial_asset.py
     ```
-    This will download the GTF annotation file (`gencode.v44.annotation.gtf.gz`) if not already present.
 
 ### 5. Running the Analysis
 
