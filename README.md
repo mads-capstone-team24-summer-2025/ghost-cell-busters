@@ -104,10 +104,11 @@ pip install scanpy pandas numpy matplotlib seaborn scikit-learn gseapy mygene in
 
 ---
 
-Note: After installing the packages, please check the numpy version to ensure compatibility.
+Note: After installing the packages, please check the numpy version to ensure compatibility. Try using one of these commands to see the numpy version.
 
 ```sh
 pip show numpy
+python -m pip show numpy
 ```
 
 It should be 1.25.2 but if it is anything else please run the following commands.
