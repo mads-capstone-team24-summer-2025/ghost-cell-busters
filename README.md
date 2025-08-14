@@ -226,6 +226,7 @@ Parts of this project’s research, summarization, and code/documentation drafti
 - **OpenAI ChatGPT (GPT-4o)** — Used for brainstorming, drafting, summarizing, and refining documentation.
 - **Google NotebookLM** — Used for information summarization and note structuring.
 - **Anthropic Claude (via GitHub Copilot)** — Used for code suggestions, completions, and inline documentation assistance.
+- **Mermaid Chart** — Used for creating flow chart for visual representations of workflows in the poster.
 
 These tools were used to support our work. All AI-generated content was reviewed, validated, and edited by us before using in the project.
 
