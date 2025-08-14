@@ -49,4 +49,4 @@ This folder contains Jupyter notebooks related to the Ghost Cell Busters project
 
 - Notebooks are organized by topic and stage of the project.
 - Please refer to individual notebook headers for specific details and requirements.
-- For questions or contributions, see the main project README.
+- For questions, see the main project README.
